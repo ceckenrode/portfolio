@@ -32,7 +32,7 @@ html, body {
   background-color: #F8F8F8;
   text-align: center;
   padding: 1% 2% 1% 2%;
-  font-size: 1.4em;
+  font-size: 1.5em;
   min-height: 100%;
   height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
   height: 100%;
