@@ -13,6 +13,7 @@ html, body {
   text-align: center;
   padding-top: 1%;
   padding-bottom: 2%; 
+  font-family: Roboto;
 }
 #subhead {
   margin-top: -2%;
@@ -37,6 +38,7 @@ html, body {
   height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
   height: 100%;
   margin: 0 0 -4em; /* the bottom margin is the negative value of the footer's height */
+  font-family: Roboto;
 }
 #content table {
   width: 96%;
@@ -59,6 +61,7 @@ html, body {
   margin-top: 0 auto;
   padding: 5% 1% 23% 1%;
   max-height: 14%;
+  font-family: Roboto;
 }
 #prof {
   float: left;
