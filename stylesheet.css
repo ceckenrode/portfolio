@@ -1,10 +1,12 @@
 * {
   margin: 0;
 }
+
 html, body {
   background-color: #CCCCCC;
   height: 100%;
 }
+
 #header {
   background-color: #2098D1;
   color: #FFFFFF;
@@ -14,17 +16,26 @@ html, body {
   padding-top: 1%;
   padding-bottom: 2%; 
 }
+
 #subhead {
   margin-top: -2%;
 }
+
 #navli {
   padding-top: 1%;
 }
-#navli li, #follow li  {
+
+#navli li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
+
+#follow li, .noBullets {
+  list-style-type: none;
+  margin: 0;
+}
+
 #content {
   background-color: #F8F8F8;
   text-align: center;
@@ -39,17 +50,21 @@ html, body {
 #content, #header, #footer {
   font-family: Roboto;
 }
+
 #content table {
   width: 96%;
 }
+
 #port {
   display: block;
   border-spacing: 50px;
   border-collapse: separate;
 }
+
 .blog {
   text-align: left;
 }
+
 #footer, #push {
   height: 4em; /* .push must be the same height as .footer */
 }
@@ -61,15 +76,18 @@ html, body {
   padding: 5% 1% 23% 1%;
   max-height: 14%;
 }
+
 #prof {
   float: left;
 }
+
 #summary {
   width: 20%;
   height: 7%;
   float:left;
   margin-left: 1%;
 }
+
 #skills {
   width: 12%;
   height: 7%;
@@ -85,6 +103,7 @@ html, body {
   clear: right;
   margin-left: 1%;
 }
+
 #contact {
   width: 12%;
   height: 7%;
@@ -92,9 +111,11 @@ html, body {
   clear: right;
   margin-left: 3%;
 }
+
 #email {
   color: #2098D1;
 }
+
 a:link {
     text-decoration: none;
     color: #FFFFFF;
@@ -105,7 +126,7 @@ a:visited {
     color: #FFFFFF;
 }
 
-  a.current {
+a.current {
   text-decoration: none;
   color: #33363B;
 
@@ -114,6 +135,7 @@ a:visited {
 a:hover {
   color: #33363B;
 }
+
 #footer a:hover {
   color: #FFFFFF;
 }
