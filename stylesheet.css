@@ -20,13 +20,10 @@ html, body {
 #navli {
   padding-top: 1%;
 }
-#navli li  {
+#navli li, #follow li  {
   display: inline;
   list-style-type: none;
   margin: 0;
-}
-#accomplishments li {
-  list-style-type: none; 
 }
 #content {
   background-color: #F8F8F8;
@@ -95,9 +92,8 @@ html, body {
   clear: right;
   margin-left: 3%;
 }
-
-li {
-  list-style-type: none;
+#email {
+  color: #2098D1;
 }
 a:link {
     text-decoration: none;
